@@ -2,7 +2,9 @@ body {
   font-family: 'Knewave', cursive;
   
 }
-
+#big-container {
+  position: relative;
+}
 
 #us-map{
   display: block;
