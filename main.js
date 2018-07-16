@@ -1,9 +1,9 @@
-$('.statebnd').hover(function(e) {
+$('.statefill').hover(function(e) {
   $('#info-box').css('display','block');
   $('#info-box').html($(this).data('info'));
 });
 
-$('.statebnd').mouseleave(function(e) {
+$('.statefill').mouseleave(function(e) {
   $('#info-box').css('display','none');
 });
 
