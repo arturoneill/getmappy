@@ -14,6 +14,11 @@ body {
   width: 100%;
   height: 100%;
 }
+
+path{
+  stroke: #00000 !important;
+}
+
 path:hover, circle:hover {
   stroke: #002868 !important;
   stroke-width:2px;
