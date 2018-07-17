@@ -54,6 +54,8 @@ text-align: center;
 iframe {
 margin: auto;
 text-align: center;
+height:495px;
+  width:100%;
 
 }
 /*-----------------------SMALL SCREEN SIZES------------------------*/
@@ -63,6 +65,12 @@ text-align: center;
   height:500px;
   width:80%;
   
+}
+	iframe {
+
+height:495px;
+  width:100%;
+
 }
   
 }
@@ -76,6 +84,13 @@ text-align: center;
   height:400px;
   width:85%;
   
+}
+
+	iframe {
+
+height:395px;
+  width:100%;
+
 }
   
 }
