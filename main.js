@@ -42,7 +42,7 @@ var statedata = {
     yield : 180,
     id       : AL,
     yieldReport : function() {
-       return this."Yield: " + this.yield;
+       return "Yield: " + this.yield;
     }
 };
 // Display data from the object:
