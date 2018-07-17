@@ -43,3 +43,9 @@ path:hover, circle:hover {
   padding: 5px;
   font-family: arial;
 }
+
+.mapFrame {
+  height:400px;
+  width:60%;
+  
+}
