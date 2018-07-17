@@ -16,7 +16,7 @@ body {
 }
 
 path{
-  stroke: #00000 !important;
+  stroke: #000000 !important;
 }
 
 path:hover, circle:hover {
