@@ -130,12 +130,28 @@
 </svg>
 	
 </div>
+	
+	
 
 <a href="https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals" target="_blank" style="position: absolute; bottom: 0px; right: 0px; text-decoration: none; color: #8a8787">Tutorial is on Website Beaver</a>
 
 <footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="main.js"></script>
+	
+	<script>// Create an object:
+var statedata = {
+    
+    yield : 180,
+    id       : 'AL',
+    yieldReport : function() {
+       return "Yield: " + this.yield;
+    }
+};
+// Display data from the object:
+document.getElementById("demo").innerHTML = statedata.yieldReport();
+	</script>
+
 </footer>
 
 </html>
