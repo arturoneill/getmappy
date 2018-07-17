@@ -4,6 +4,8 @@ body {
 }
 #intro-container {
   position: relative;
+	margin: auto;
+text-align: center;
 }
 
 #us-map{
