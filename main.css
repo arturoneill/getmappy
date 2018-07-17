@@ -83,14 +83,14 @@ height:495px;
 @media screen and (max-width: 400px){
   
   .mapFrame {
-  height:400px;
-  width:85%;
+  height:450px;
+  width:95%;
   
 }
 
 	iframe {
 
-height:395px;
+height:445px;
   width:100%;
 
 }
