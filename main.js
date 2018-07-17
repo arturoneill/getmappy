@@ -23,17 +23,7 @@ if(ios) {
   });
 }
 
-var changeColor = function(path){
 
-  if(yield.value < 6){
-    path.style.fill = 'green';
-  } else if(yield.value >= 6 && obj.value <= 9){
-    path.style.fill = 'orange';
-  } else if(yield.value > 9){
-   path.style.fill = 'red';
-  }
-
-};
 
 
 // Create an object:
@@ -46,5 +36,5 @@ var statedata = {
     }
 };
 // Display data from the object:
-document.getElementById("demo").innerHTML = person.yieldReport();
+document.getElementById("demo").innerHTML = statedata.yieldReport();
 
