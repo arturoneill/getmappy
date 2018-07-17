@@ -51,7 +51,11 @@ text-align: center;
   width:65%;
   
 }
+iframe {
+margin: auto;
+text-align: center;
 
+}
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
   
