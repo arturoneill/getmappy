@@ -45,7 +45,31 @@ path:hover, circle:hover {
 }
 
 .mapFrame {
+  height:500px;
+  width:65%;
+  
+}
+
+/*-----------------------SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 767px){
+  
+  .mapFrame {
+  height:500px;
+  width:80%;
+  
+}
+  
+}
+	
+
+
+/*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 400px){
+  
+  .mapFrame {
   height:400px;
-  width:60%;
+  width:85%;
+  
+}
   
 }
