@@ -35,9 +35,9 @@ var changeColor = function(path){
 
 };
 
-<script>
+
 // Create an object:
-var person = {
+var statedata = {
     
     yield : 180,
     id       : AL,
@@ -47,4 +47,4 @@ var person = {
 };
 // Display data from the object:
 document.getElementById("demo").innerHTML = person.yieldReport();
-</script>
+
