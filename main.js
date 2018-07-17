@@ -26,15 +26,4 @@ if(ios) {
 
 
 
-// Create an object:
-var statedata = {
-    
-    yield : 180,
-    id       : 'AL',
-    yieldReport : function() {
-       return "Yield: " + this.yield;
-    }
-};
-// Display data from the object:
-document.getElementById("demo").innerHTML = statedata.yieldReport();
 
