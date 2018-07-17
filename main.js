@@ -7,6 +7,8 @@ $('.statefill').mouseleave(function(e) {
   $('#info-box').css('display','none');
 });
 
+
+
 $(document).mousemove(function(e) {
   $('#info-box').css('top',e.pageY-$('#info-box').height()-30);
   $('#info-box').css('left',e.pageX-($('#info-box').width())/2);
@@ -20,3 +22,15 @@ if(ios) {
     return false;
   });
 }
+
+var changeColor = function(path){
+
+  if(yield.value < 6){
+    path.style.fill = 'green';
+  } else if(yield.value >= 6 && obj.value <= 9){
+    path.style.fill = 'orange';
+  } else if(yield.value > 9){
+   path.style.fill = 'red';
+  }
+
+};
