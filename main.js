@@ -34,3 +34,17 @@ var changeColor = function(path){
   }
 
 };
+
+<script>
+// Create an object:
+var person = {
+    
+    yield : 180,
+    id       : AL,
+    yieldReport : function() {
+       return this."Yield: " + this.yield;
+    }
+};
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.yieldReport();
+</script>
