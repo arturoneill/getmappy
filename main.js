@@ -30,7 +30,7 @@ if(ios) {
 var statedata = {
     
     yield : 180,
-    id       : AL,
+    id       : 'AL',
     yieldReport : function() {
        return "Yield: " + this.yield;
     }
